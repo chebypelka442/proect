@@ -1,0 +1,54 @@
+.figure{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+ animation-name:spin;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ border-radius: 0%;
+}
+ @keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    
+    }
+    35%{
+        background-color: green;
+        border-radius: 35%;
+    }
+    50%
+    {
+    background-color: red;
+    border-radius: 50%;
+    }
+
+    100%{
+        transform:rotate(360deg);
+
+    
+ }
+}
+
+.watermelon {
+    position: relative;
+    top: 80px;
+    left: 430px;
+    width: 400px;
+    height: 180px;
+    background-color: #179245;
+    border-radius: 0% 0% 200px 200px;
+
+}
+
+.PiaceWatermelon {
+    position: absolute;
+    left: 25px;
+    width: 350px;
+    height: 155px;
+    background-color: red;
+    border-radius: 0% 0% 230px 230px;
+
+}
